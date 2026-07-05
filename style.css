@@ -6,7 +6,8 @@
 }
 
 body {
-    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    background: url("img/bg-novo.png") no-repeat center center fixed;
+    background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -14,7 +15,7 @@ body {
 }
 
 
-body::before {
+/* body::before {
     background-image: url("img/code.png");
     background-repeat: no-repeat;
     background-position: right;
@@ -24,7 +25,7 @@ body::before {
     width: 100%;
     height: 100%;
     opacity: 0.4;
-}
+} */
 
 .container {
     width: 80%;
